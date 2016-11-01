@@ -3,7 +3,7 @@ body {
 	font-family: comic sans MS;
 	max-width: 2000px;
 	margin: 0 auto; 
-	font-size: 5em;
+	font-size: 5em;  
 }
 ul {
 	list-style-type: circle;  
@@ -14,10 +14,19 @@ li {
 	line-height: 44px; 
 }
 
+li.square {
+  list-style-type: square;
+}
+
 h2 {
 	text-align: left;
 	color: #DC143C;
 	margin: 30px;
+}
+h2.purple {
+  text-align: center;
+  color: #800080;
+  margin: 30px;
 }
 * {
   background-color: #FFE4C4;
